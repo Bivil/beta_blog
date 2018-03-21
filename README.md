@@ -3,7 +3,7 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-A generic blog project:
+A generic blog project, More Updations under way!
 
 Things you may want to cover:
 
