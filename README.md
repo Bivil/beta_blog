@@ -5,6 +5,8 @@ application up and running.
 
 A generic blog project, More Updations under way!
 
+Worked out with RoR
+
 Things you may want to cover:
 
 * Ruby version  - ruby-2.3.3
