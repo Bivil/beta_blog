@@ -1,0 +1,21 @@
+
+
+<%= form_for @article do |f| %>
+  <%# <%= render 'layouts/error_messages', f: f.object %>
+    <p>
+      <%= f.label :title%>
+        <br/>
+        <%= f.text_field :title%>
+    </p>
+    <p>
+      <%= f.label :description%>
+        <br/>
+        <%= f.text_area :description%>
+    </p>
+    <p>
+      <%= f.submit %>
+    </p>
+    <!-- form_for @object, html: { multipart: true }, do |f| -->
+    <!-- form_for @object, html: { class: "classname" }, do |f| -->
+
+<% end %>
