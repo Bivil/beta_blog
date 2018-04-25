@@ -1,12 +1,4 @@
-<h1>Ceate an article</h1>
+<h1 align="center" >Ceate an article</h1>
 
-<% if @article.errors.any?  %>
-<ul>
-  <% @article.errors.full_messages.each do |msg| %>
-    <li> <%= msg %> </li>
-  <% end %>
-</ul>
-<% end %>
 
 <%= render  "form" %>
-<%= link_to  "Back to Articles listing", articles_path %>
